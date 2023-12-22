@@ -1,5 +1,5 @@
 /* cambia el color de fondo de bloqueinicio */
-function cambiarColor() {
+function cambiarColorFondo() {
     // Generamos colores aleatorios en formato hexadecimal
     const nuevoColor = '#' + Math.floor(Math.random()*16777215).toString(16);
 
@@ -10,8 +10,8 @@ function cambiarColor() {
 
   // Llamamos a la función cambiarColor cuando la página carga y establecemos un intervalo para cambiar el color cada 2 segundos
   window.onload = function() {
-    cambiarColor(); // Cambiamos el color al cargar la página
-    setInterval(cambiarColor, 2000); // Cambiamos el color cada 2 segundos
+    cambiarColorFondo(); // Cambiamos el color al cargar la página
+    setInterval(cambiarColorFondo, 2000); // Cambiamos el color cada 2 segundos
     cambiarColorLetras(); // Cambiamos los colores al cargar la página
     setInterval(cambiarColorLetras, 2000); // Cambiamos los colores cada 2 segundos
   };

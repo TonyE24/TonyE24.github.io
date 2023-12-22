@@ -8,9 +8,11 @@
 }
 
 #BloqueInicio{
-    height: 300px;
+    height: 500px;
     width: 100%;
-    background-color: black;
+    background-image: url("https://pixabay.com/get/ge44eed7f36268ed9ccf2eee11bc10103bb0140a5570dcb605c2fd3b7a068ee406ae1898091ae406e5d130790bf19ab5f0437f585f1920c6219c5e053656163bb_1280.jpg");
+    background-position: center;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,16 +21,19 @@
 
 #Minombre{
     font-size: 80px;
-    background-color: rgb(23, 121, 233);
+    background-color: rgba(23, 121, 233,0.5);
     border-radius: 70px/70px;
-    padding: 20px;
+    padding: 25px;
     font-family: 'Rubik Doodle Shadow', serif;
 }
 
 #Saludo{
-    font-size: 60px;
+    font-size: 90px;
     font-family: 'Crimson Pro', serif;
     letter-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 20px/15px;
 }
 
 nav{
@@ -53,4 +58,10 @@ a{
     height: 800px;
     width: 100%;
     background-color: rgb(9, 106, 185);
+}
+
+.pie-de-pagina{
+    height: 300px;
+    width: 100%;
+    background-color: black;
 }
